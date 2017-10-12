@@ -21,6 +21,7 @@
 		5FB185BF1F8F4B1000B9BC37 /* SliderTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB185BE1F8F4B1000B9BC37 /* SliderTextCell.swift */; };
 		5FB185C11F8F4B3E00B9BC37 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB185C01F8F4B3E00B9BC37 /* Extensions.swift */; };
 		5FB185C31F8F4BA400B9BC37 /* SliderTextCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB185C21F8F4BA400B9BC37 /* SliderTextCellViewModel.swift */; };
+		5FB185C71F8F4EFA00B9BC37 /* UISubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB185C61F8F4EFA00B9BC37 /* UISubscriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		5FB185BE1F8F4B1000B9BC37 /* SliderTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderTextCell.swift; sourceTree = "<group>"; };
 		5FB185C01F8F4B3E00B9BC37 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5FB185C21F8F4BA400B9BC37 /* SliderTextCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderTextCellViewModel.swift; sourceTree = "<group>"; };
+		5FB185C61F8F4EFA00B9BC37 /* UISubscriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISubscriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,8 +186,17 @@
 			children = (
 				5FB185B61F8F47C900B9BC37 /* LoginValidation */,
 				5FB185BB1F8F4A9500B9BC37 /* SliderTextSync */,
+				5FB185C51F8F4EBE00B9BC37 /* UISubscription */,
 			);
 			name = Sample;
+			sourceTree = "<group>";
+		};
+		5FB185C51F8F4EBE00B9BC37 /* UISubscription */ = {
+			isa = PBXGroup;
+			children = (
+				5FB185C61F8F4EFA00B9BC37 /* UISubscriptionViewController.swift */,
+			);
+			name = UISubscription;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +356,7 @@
 				5FB185BF1F8F4B1000B9BC37 /* SliderTextCell.swift in Sources */,
 				5FB185C11F8F4B3E00B9BC37 /* Extensions.swift in Sources */,
 				5FB185BD1F8F4AC500B9BC37 /* SliderTextViewController.swift in Sources */,
+				5FB185C71F8F4EFA00B9BC37 /* UISubscriptionViewController.swift in Sources */,
 				5FB185BA1F8F480200B9BC37 /* LoginViewController.swift in Sources */,
 				5FB185C31F8F4BA400B9BC37 /* SliderTextCellViewModel.swift in Sources */,
 				5FB185B81F8F47DD00B9BC37 /* LoginViewModel.swift in Sources */,
