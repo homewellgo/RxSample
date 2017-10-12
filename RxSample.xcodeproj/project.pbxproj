@@ -115,8 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				5FB185AA1F8F44F500B9BC37 /* Application */,
-				5FB185B61F8F47C900B9BC37 /* Login */,
-				5FB185BB1F8F4A9500B9BC37 /* SliderTextCell */,
+				5FB185C41F8F4E1300B9BC37 /* Sample */,
 			);
 			path = RxSample;
 			sourceTree = "<group>";
@@ -161,23 +160,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5FB185B61F8F47C900B9BC37 /* Login */ = {
+		5FB185B61F8F47C900B9BC37 /* LoginValidation */ = {
 			isa = PBXGroup;
 			children = (
 				5FB185B91F8F480200B9BC37 /* LoginViewController.swift */,
 				5FB185B71F8F47DD00B9BC37 /* LoginViewModel.swift */,
 			);
-			name = Login;
+			name = LoginValidation;
 			sourceTree = "<group>";
 		};
-		5FB185BB1F8F4A9500B9BC37 /* SliderTextCell */ = {
+		5FB185BB1F8F4A9500B9BC37 /* SliderTextSync */ = {
 			isa = PBXGroup;
 			children = (
 				5FB185BC1F8F4AC500B9BC37 /* SliderTextViewController.swift */,
 				5FB185BE1F8F4B1000B9BC37 /* SliderTextCell.swift */,
 				5FB185C21F8F4BA400B9BC37 /* SliderTextCellViewModel.swift */,
 			);
-			name = SliderTextCell;
+			name = SliderTextSync;
+			sourceTree = "<group>";
+		};
+		5FB185C41F8F4E1300B9BC37 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				5FB185B61F8F47C900B9BC37 /* LoginValidation */,
+				5FB185BB1F8F4A9500B9BC37 /* SliderTextSync */,
+			);
+			name = Sample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
