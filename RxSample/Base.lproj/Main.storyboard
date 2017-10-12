@@ -20,6 +20,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="U9U-0y-4pl" kind="relationship" relationship="viewControllers" id="W0J-fG-48H"/>
+                        <segue destination="pIX-fz-rzB" kind="relationship" relationship="viewControllers" id="bNR-2D-RbN"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cI5-EA-KuH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -81,6 +82,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zkf-PU-oD1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="380" y="-107"/>
+        </scene>
+        <!--Slider Text-->
+        <scene sceneID="wNE-Mj-QNj">
+            <objects>
+                <tableViewController id="pIX-fz-rzB" customClass="SliderTextViewController" customModule="RxSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Eyb-MR-rUH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="jjB-9C-aEi">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jjB-9C-aEi" id="xTM-rO-0ZA">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="pIX-fz-rzB" id="81w-En-dux"/>
+                            <outlet property="delegate" destination="pIX-fz-rzB" id="gei-IR-ely"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Slider Text" id="EU2-nz-t9X"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ixd-8i-sJ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="595"/>
         </scene>
     </scenes>
 </document>
